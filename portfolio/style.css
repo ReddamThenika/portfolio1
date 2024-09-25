@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(55, 120, 170);
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: rgb(55, 120, 170);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+
+  nav a:hover {
+    color: black;
+  }
+
+  .social-icons .fa{
+      color: white;
+      margin-right: 15px;
+      font-size: 25px;
+  }
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  .section1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+
+  .section .image {
+    flex: 0.1;
+    margin-left: 50px;
+  }
+
+  .section .image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .section .text {
+    flex: 1;
+    padding: 0% 10%;
+  }
+
+  .section .text p {
+    font-size: 30px;
+    color: white;
+  }
+
+  .section1 .divider {
+  flex: 0.4;
+  margin-left: 50px;
+    margin-right: 10px;
+    height: 5px;
+    background-color: white;
+  }
+
+  .section1 .or {
+    flex: 0.2;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .section1 .description {
+    flex: 1;
+    font-size: 18px;
+    color: white;
+    padding: 0% 5%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .section1 {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .section .image,
+    .section .text,
+    .section1 .divider,
+    .section1 .description {
+      padding-left: 0;
+    }
+
+    .section1 .divider {
+      display: none;
+    }
+  }

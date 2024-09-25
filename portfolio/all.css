@@ -1,0 +1,41 @@
+h1{
+    font-size: 50px;
+    color: red;
+    padding: 20px;
+}
+h3{
+    font-size: 40px;
+    color: green;
+    padding: 20px; 
+}
+body{
+    background-color: lightblue;
+}
+button{
+    padding:5px;
+    background-color: Pink;
+    color:Black;
+    margin-left: 600px;
+    margin-top:200px;
+}
+.home{
+    font-size: 40px;
+    color: green;
+    padding: 40px; 
+    margin-top: 100px;
+}
+.skill1{
+    color:red;
+    font-size: 30px;
+}
+.skill2,.skill3,.skill4,.skill5{
+    color:blue;
+    font-size: 20px;
+}
+.about{
+    color:purple;
+    font-size: 25px;
+    padding:30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
